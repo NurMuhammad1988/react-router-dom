@@ -1,0 +1,32 @@
+:root{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.App{
+  max-width: 969px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  margin: 0 auto 60px;
+  gap: 10px;
+  align-items: center;
+}
+
+nav h1{
+  margin-right: auto;
+}
+
+nav a{
+  color: #333;
+  padding: 4px 10px;
+}
+
+nav a.active{
+  /* navlinkni linkdan farqi shu yani agar class activ bo'lsa stylelarini o'zgartirib beradi linkdan navlink maqulroq */
+  color:white;
+  background: #ce3232;
+  text-decoration: none;
+  border-radius: 5px;
+}
